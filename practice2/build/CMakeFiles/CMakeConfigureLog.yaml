@@ -1,0 +1,1261 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 6.7.4-arch1-1 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/usercommon/.nix-profile/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is Clang, found in:
+        /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/3.27.8/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/usercommon/.nix-profile/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/3.27.8/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-uUKIQc"
+      binary: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-uUKIQc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-uUKIQc'
+        
+        Run Build Command(s): /nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/bin/cmake -E env VERBOSE=1 /home/usercommon/.nix-profile/bin/make -f Makefile cmTC_a999d/fast
+        /home/usercommon/.nix-profile/bin/make  -f CMakeFiles/cmTC_a999d.dir/build.make CMakeFiles/cmTC_a999d.dir/build
+        make[1]: Entering directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-uUKIQc'
+        Building C object CMakeFiles/cmTC_a999d.dir/CMakeCCompilerABI.c.o
+        /home/usercommon/.nix-profile/bin/cc   -v -MD -MT CMakeFiles/cmTC_a999d.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_a999d.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_a999d.dir/CMakeCCompilerABI.c.o -c /nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/CMakeCCompilerABI.c
+        clang version 16.0.6
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Selected GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin/clang-16" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-uUKIQc -nostdsysteminc -resource-dir /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root -dependency-file CMakeFiles/cmTC_a999d.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_a999d.dir/CMakeCCompilerABI.c.o -sys-header-deps -idirafter /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include -internal-isystem /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include -fdebug-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-uUKIQc -ferror-limit 19 -fgnuc-version=4.2.1 -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a999d.dir/CMakeCCompilerABI.c.o -x c /nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 16.0.6 based upon LLVM 16.0.6 default target x86_64-unknown-linux-gnu
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include
+         /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include
+        End of search list.
+        Linking C executable cmTC_a999d
+        /nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a999d.dir/link.txt --verbose=1
+        /home/usercommon/.nix-profile/bin/cc  -v CMakeFiles/cmTC_a999d.dir/CMakeCCompilerABI.c.o -o cmTC_a999d 
+        clang version 16.0.6
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Selected GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         "/nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/bin/ld" -pie --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -o cmTC_a999d /nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/Scrt1.o /nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/crti.o /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtbeginS.o -L/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib -L/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0 -L/nix/store/np3cndfk53miqg2cilv7vfdxckga665h-gcc-13.2.0-lib/lib -L/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0//lib -L/nix/store/kbsb6s8djydiawgswnm8j5bwn1yxaqb7-gcc-13.2.0-libgcc/lib -L/nix/store/l92dv1igdpgkb1mxjv9rabvk795k45ih-clang-16.0.6-lib/lib -L/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0 -L/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib -dynamic-linker=/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/ld-linux-x86-64.so.2 CMakeFiles/cmTC_a999d.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtendS.o /nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/crtn.o
+        make[1]: Leaving directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-uUKIQc'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include]
+          add: [/nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include]
+        end of search list found
+        collapse include dir [/nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include] ==> [/nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include]
+        collapse include dir [/nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include] ==> [/nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include]
+        implicit include dirs: [/nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include;/nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-uUKIQc']
+        ignore line: []
+        ignore line: [Run Build Command(s): /nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/bin/cmake -E env VERBOSE=1 /home/usercommon/.nix-profile/bin/make -f Makefile cmTC_a999d/fast]
+        ignore line: [/home/usercommon/.nix-profile/bin/make  -f CMakeFiles/cmTC_a999d.dir/build.make CMakeFiles/cmTC_a999d.dir/build]
+        ignore line: [make[1]: Entering directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-uUKIQc']
+        ignore line: [Building C object CMakeFiles/cmTC_a999d.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/home/usercommon/.nix-profile/bin/cc   -v -MD -MT CMakeFiles/cmTC_a999d.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_a999d.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_a999d.dir/CMakeCCompilerABI.c.o -c /nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang version 16.0.6]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin]
+        ignore line: [Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0]
+        ignore line: [Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0]
+        ignore line: [Selected GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin/clang-16" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-uUKIQc -nostdsysteminc -resource-dir /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root -dependency-file CMakeFiles/cmTC_a999d.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_a999d.dir/CMakeCCompilerABI.c.o -sys-header-deps -idirafter /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include -internal-isystem /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include -fdebug-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-uUKIQc -ferror-limit 19 -fgnuc-version=4.2.1 -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a999d.dir/CMakeCCompilerABI.c.o -x c /nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 16.0.6 based upon LLVM 16.0.6 default target x86_64-unknown-linux-gnu]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include]
+        ignore line: [ /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_a999d]
+        ignore line: [/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a999d.dir/link.txt --verbose=1]
+        ignore line: [/home/usercommon/.nix-profile/bin/cc  -v CMakeFiles/cmTC_a999d.dir/CMakeCCompilerABI.c.o -o cmTC_a999d ]
+        ignore line: [clang version 16.0.6]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin]
+        ignore line: [Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0]
+        ignore line: [Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0]
+        ignore line: [Selected GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/bin/ld" -pie --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -o cmTC_a999d /nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/Scrt1.o /nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/crti.o /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtbeginS.o -L/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib -L/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0 -L/nix/store/np3cndfk53miqg2cilv7vfdxckga665h-gcc-13.2.0-lib/lib -L/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0//lib -L/nix/store/kbsb6s8djydiawgswnm8j5bwn1yxaqb7-gcc-13.2.0-libgcc/lib -L/nix/store/l92dv1igdpgkb1mxjv9rabvk795k45ih-clang-16.0.6-lib/lib -L/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0 -L/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib -dynamic-linker=/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/ld-linux-x86-64.so.2 CMakeFiles/cmTC_a999d.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtendS.o /nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/crtn.o]
+          arg [/nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/bin/ld] ==> ignore
+          arg [-pie] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_a999d] ==> ignore
+          arg [/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/Scrt1.o] ==> obj [/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/Scrt1.o]
+          arg [/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/crti.o] ==> obj [/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/crti.o]
+          arg [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtbeginS.o] ==> obj [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtbeginS.o]
+          arg [-L/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib] ==> dir [/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib]
+          arg [-L/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0] ==> dir [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0]
+          arg [-L/nix/store/np3cndfk53miqg2cilv7vfdxckga665h-gcc-13.2.0-lib/lib] ==> dir [/nix/store/np3cndfk53miqg2cilv7vfdxckga665h-gcc-13.2.0-lib/lib]
+          arg [-L/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0//lib] ==> dir [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0//lib]
+          arg [-L/nix/store/kbsb6s8djydiawgswnm8j5bwn1yxaqb7-gcc-13.2.0-libgcc/lib] ==> dir [/nix/store/kbsb6s8djydiawgswnm8j5bwn1yxaqb7-gcc-13.2.0-libgcc/lib]
+          arg [-L/nix/store/l92dv1igdpgkb1mxjv9rabvk795k45ih-clang-16.0.6-lib/lib] ==> dir [/nix/store/l92dv1igdpgkb1mxjv9rabvk795k45ih-clang-16.0.6-lib/lib]
+          arg [-L/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0] ==> dir [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0]
+          arg [-L/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../lib64] ==> dir [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-dynamic-linker=/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/ld-linux-x86-64.so.2] ==> ignore
+          arg [CMakeFiles/cmTC_a999d.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtendS.o] ==> obj [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtendS.o]
+          arg [/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/crtn.o] ==> obj [/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/crtn.o]
+        collapse library dir [/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib] ==> [/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib]
+        collapse library dir [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0] ==> [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0]
+        collapse library dir [/nix/store/np3cndfk53miqg2cilv7vfdxckga665h-gcc-13.2.0-lib/lib] ==> [/nix/store/np3cndfk53miqg2cilv7vfdxckga665h-gcc-13.2.0-lib/lib]
+        collapse library dir [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0//lib] ==> [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib]
+        collapse library dir [/nix/store/kbsb6s8djydiawgswnm8j5bwn1yxaqb7-gcc-13.2.0-libgcc/lib] ==> [/nix/store/kbsb6s8djydiawgswnm8j5bwn1yxaqb7-gcc-13.2.0-libgcc/lib]
+        collapse library dir [/nix/store/l92dv1igdpgkb1mxjv9rabvk795k45ih-clang-16.0.6-lib/lib] ==> [/nix/store/l92dv1igdpgkb1mxjv9rabvk795k45ih-clang-16.0.6-lib/lib]
+        collapse library dir [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0] ==> [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0]
+        collapse library dir [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../lib64] ==> [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/Scrt1.o;/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/crti.o;/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtbeginS.o;/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtendS.o;/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/crtn.o]
+        implicit dirs: [/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib;/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0;/nix/store/np3cndfk53miqg2cilv7vfdxckga665h-gcc-13.2.0-lib/lib;/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib;/nix/store/kbsb6s8djydiawgswnm8j5bwn1yxaqb7-gcc-13.2.0-libgcc/lib;/nix/store/l92dv1igdpgkb1mxjv9rabvk795k45ih-clang-16.0.6-lib/lib;/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0;/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64;/lib64;/usr/lib64;/lib;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-tJ5kiC"
+      binary: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-tJ5kiC"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-tJ5kiC'
+        
+        Run Build Command(s): /nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/bin/cmake -E env VERBOSE=1 /home/usercommon/.nix-profile/bin/make -f Makefile cmTC_438f1/fast
+        /home/usercommon/.nix-profile/bin/make  -f CMakeFiles/cmTC_438f1.dir/build.make CMakeFiles/cmTC_438f1.dir/build
+        make[1]: Entering directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-tJ5kiC'
+        Building CXX object CMakeFiles/cmTC_438f1.dir/CMakeCXXCompilerABI.cpp.o
+        /home/usercommon/.nix-profile/bin/c++   -v -MD -MT CMakeFiles/cmTC_438f1.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_438f1.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_438f1.dir/CMakeCXXCompilerABI.cpp.o -c /nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+        clang version 16.0.6
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Selected GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin/clang-16" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-tJ5kiC -nostdsysteminc -resource-dir /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root -dependency-file CMakeFiles/cmTC_438f1.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_438f1.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -idirafter /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include -isystem /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0 -isystem /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu -internal-isystem /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include -fdeprecated-macro -fdebug-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-tJ5kiC -ferror-limit 19 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_438f1.dir/CMakeCXXCompilerABI.cpp.o -x c++ /nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 16.0.6 based upon LLVM 16.0.6 default target x86_64-unknown-linux-gnu
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0
+         /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu
+         /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include
+         /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include
+        End of search list.
+        Linking CXX executable cmTC_438f1
+        /nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_438f1.dir/link.txt --verbose=1
+        /home/usercommon/.nix-profile/bin/c++  -v CMakeFiles/cmTC_438f1.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_438f1 
+        clang version 16.0.6
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Selected GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         "/nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/bin/ld" -pie --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -o cmTC_438f1 /nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/Scrt1.o /nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/crti.o /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtbeginS.o -L/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib -L/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0 -L/nix/store/np3cndfk53miqg2cilv7vfdxckga665h-gcc-13.2.0-lib/lib -L/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0//lib -L/nix/store/kbsb6s8djydiawgswnm8j5bwn1yxaqb7-gcc-13.2.0-libgcc/lib -L/nix/store/l92dv1igdpgkb1mxjv9rabvk795k45ih-clang-16.0.6-lib/lib -L/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0 -L/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib -dynamic-linker=/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/ld-linux-x86-64.so.2 CMakeFiles/cmTC_438f1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtendS.o /nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/crtn.o
+        make[1]: Leaving directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-tJ5kiC'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0]
+          add: [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu]
+          add: [/nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include]
+          add: [/nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include]
+        end of search list found
+        collapse include dir [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0] ==> [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0]
+        collapse include dir [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu] ==> [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu]
+        collapse include dir [/nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include] ==> [/nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include]
+        collapse include dir [/nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include] ==> [/nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include]
+        implicit include dirs: [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0;/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu;/nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include;/nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-tJ5kiC']
+        ignore line: []
+        ignore line: [Run Build Command(s): /nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/bin/cmake -E env VERBOSE=1 /home/usercommon/.nix-profile/bin/make -f Makefile cmTC_438f1/fast]
+        ignore line: [/home/usercommon/.nix-profile/bin/make  -f CMakeFiles/cmTC_438f1.dir/build.make CMakeFiles/cmTC_438f1.dir/build]
+        ignore line: [make[1]: Entering directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-tJ5kiC']
+        ignore line: [Building CXX object CMakeFiles/cmTC_438f1.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/home/usercommon/.nix-profile/bin/c++   -v -MD -MT CMakeFiles/cmTC_438f1.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_438f1.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_438f1.dir/CMakeCXXCompilerABI.cpp.o -c /nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang version 16.0.6]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin]
+        ignore line: [Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0]
+        ignore line: [Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0]
+        ignore line: [Selected GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin/clang-16" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-tJ5kiC -nostdsysteminc -resource-dir /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root -dependency-file CMakeFiles/cmTC_438f1.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_438f1.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -idirafter /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include -isystem /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0 -isystem /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu -internal-isystem /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include -fdeprecated-macro -fdebug-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-tJ5kiC -ferror-limit 19 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_438f1.dir/CMakeCXXCompilerABI.cpp.o -x c++ /nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 16.0.6 based upon LLVM 16.0.6 default target x86_64-unknown-linux-gnu]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0]
+        ignore line: [ /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu]
+        ignore line: [ /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include]
+        ignore line: [ /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_438f1]
+        ignore line: [/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/bin/cmake -E cmake_link_script CMakeFiles/cmTC_438f1.dir/link.txt --verbose=1]
+        ignore line: [/home/usercommon/.nix-profile/bin/c++  -v CMakeFiles/cmTC_438f1.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_438f1 ]
+        ignore line: [clang version 16.0.6]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin]
+        ignore line: [Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0]
+        ignore line: [Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0]
+        ignore line: [Selected GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/bin/ld" -pie --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -o cmTC_438f1 /nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/Scrt1.o /nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/crti.o /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtbeginS.o -L/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib -L/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0 -L/nix/store/np3cndfk53miqg2cilv7vfdxckga665h-gcc-13.2.0-lib/lib -L/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0//lib -L/nix/store/kbsb6s8djydiawgswnm8j5bwn1yxaqb7-gcc-13.2.0-libgcc/lib -L/nix/store/l92dv1igdpgkb1mxjv9rabvk795k45ih-clang-16.0.6-lib/lib -L/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0 -L/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib -dynamic-linker=/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/ld-linux-x86-64.so.2 CMakeFiles/cmTC_438f1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtendS.o /nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/crtn.o]
+          arg [/nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/bin/ld] ==> ignore
+          arg [-pie] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_438f1] ==> ignore
+          arg [/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/Scrt1.o] ==> obj [/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/Scrt1.o]
+          arg [/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/crti.o] ==> obj [/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/crti.o]
+          arg [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtbeginS.o] ==> obj [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtbeginS.o]
+          arg [-L/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib] ==> dir [/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib]
+          arg [-L/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0] ==> dir [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0]
+          arg [-L/nix/store/np3cndfk53miqg2cilv7vfdxckga665h-gcc-13.2.0-lib/lib] ==> dir [/nix/store/np3cndfk53miqg2cilv7vfdxckga665h-gcc-13.2.0-lib/lib]
+          arg [-L/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0//lib] ==> dir [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0//lib]
+          arg [-L/nix/store/kbsb6s8djydiawgswnm8j5bwn1yxaqb7-gcc-13.2.0-libgcc/lib] ==> dir [/nix/store/kbsb6s8djydiawgswnm8j5bwn1yxaqb7-gcc-13.2.0-libgcc/lib]
+          arg [-L/nix/store/l92dv1igdpgkb1mxjv9rabvk795k45ih-clang-16.0.6-lib/lib] ==> dir [/nix/store/l92dv1igdpgkb1mxjv9rabvk795k45ih-clang-16.0.6-lib/lib]
+          arg [-L/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0] ==> dir [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0]
+          arg [-L/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../lib64] ==> dir [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-dynamic-linker=/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/ld-linux-x86-64.so.2] ==> ignore
+          arg [CMakeFiles/cmTC_438f1.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtendS.o] ==> obj [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtendS.o]
+          arg [/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/crtn.o] ==> obj [/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/crtn.o]
+        collapse library dir [/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib] ==> [/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib]
+        collapse library dir [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0] ==> [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0]
+        collapse library dir [/nix/store/np3cndfk53miqg2cilv7vfdxckga665h-gcc-13.2.0-lib/lib] ==> [/nix/store/np3cndfk53miqg2cilv7vfdxckga665h-gcc-13.2.0-lib/lib]
+        collapse library dir [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0//lib] ==> [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib]
+        collapse library dir [/nix/store/kbsb6s8djydiawgswnm8j5bwn1yxaqb7-gcc-13.2.0-libgcc/lib] ==> [/nix/store/kbsb6s8djydiawgswnm8j5bwn1yxaqb7-gcc-13.2.0-libgcc/lib]
+        collapse library dir [/nix/store/l92dv1igdpgkb1mxjv9rabvk795k45ih-clang-16.0.6-lib/lib] ==> [/nix/store/l92dv1igdpgkb1mxjv9rabvk795k45ih-clang-16.0.6-lib/lib]
+        collapse library dir [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0] ==> [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0]
+        collapse library dir [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../lib64] ==> [/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/Scrt1.o;/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/crti.o;/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtbeginS.o;/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtendS.o;/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib/crtn.o]
+        implicit dirs: [/nix/store/7jiqcrg061xi5clniy7z5pvkc4jiaqav-glibc-2.38-27/lib;/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0;/nix/store/np3cndfk53miqg2cilv7vfdxckga665h-gcc-13.2.0-lib/lib;/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib;/nix/store/kbsb6s8djydiawgswnm8j5bwn1yxaqb7-gcc-13.2.0-libgcc/lib;/nix/store/l92dv1igdpgkb1mxjv9rabvk795k45ih-clang-16.0.6-lib/lib;/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0;/nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64;/lib64;/usr/lib64;/lib;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/FindOpenMP.cmake:485 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:4 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-p77XOk"
+      binary: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-p77XOk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_fopenmplibomp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-p77XOk'
+        
+        Run Build Command(s): /nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/bin/cmake -E env VERBOSE=1 /home/usercommon/.nix-profile/bin/make -f Makefile cmTC_1790c/fast
+        /home/usercommon/.nix-profile/bin/make  -f CMakeFiles/cmTC_1790c.dir/build.make CMakeFiles/cmTC_1790c.dir/build
+        make[1]: Entering directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-p77XOk'
+        Building C object CMakeFiles/cmTC_1790c.dir/OpenMPTryFlag.c.o
+        /home/usercommon/.nix-profile/bin/cc   -fopenmp=libomp -v -MD -MT CMakeFiles/cmTC_1790c.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_1790c.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_1790c.dir/OpenMPTryFlag.c.o -c /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-p77XOk/OpenMPTryFlag.c
+        clang version 16.0.6
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Selected GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin/clang-16" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-p77XOk -nostdsysteminc -resource-dir /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root -dependency-file CMakeFiles/cmTC_1790c.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_1790c.dir/OpenMPTryFlag.c.o -sys-header-deps -idirafter /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include -internal-isystem /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include -fdebug-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-p77XOk -ferror-limit 19 -fopenmp -fgnuc-version=4.2.1 -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_1790c.dir/OpenMPTryFlag.c.o -x c /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-p77XOk/OpenMPTryFlag.c
+        clang -cc1 version 16.0.6 based upon LLVM 16.0.6 default target x86_64-unknown-linux-gnu
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include
+         /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include
+        End of search list.
+        /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-p77XOk/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+        #include <omp.h>
+                 ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_1790c.dir/build.make:79: CMakeFiles/cmTC_1790c.dir/OpenMPTryFlag.c.o] Error 1
+        make[1]: Leaving directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-p77XOk'
+        make: *** [Makefile:127: cmTC_1790c/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/FindOpenMP.cmake:485 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:4 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-48yIgp"
+      binary: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-48yIgp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_fopenmplibiomp5"
+      cached: true
+      stdout: |
+        Change Dir: '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-48yIgp'
+        
+        Run Build Command(s): /nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/bin/cmake -E env VERBOSE=1 /home/usercommon/.nix-profile/bin/make -f Makefile cmTC_34e7b/fast
+        /home/usercommon/.nix-profile/bin/make  -f CMakeFiles/cmTC_34e7b.dir/build.make CMakeFiles/cmTC_34e7b.dir/build
+        make[1]: Entering directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-48yIgp'
+        Building C object CMakeFiles/cmTC_34e7b.dir/OpenMPTryFlag.c.o
+        /home/usercommon/.nix-profile/bin/cc   -fopenmp=libiomp5 -v -MD -MT CMakeFiles/cmTC_34e7b.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_34e7b.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_34e7b.dir/OpenMPTryFlag.c.o -c /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-48yIgp/OpenMPTryFlag.c
+        clang version 16.0.6
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Selected GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin/clang-16" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-48yIgp -nostdsysteminc -resource-dir /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root -dependency-file CMakeFiles/cmTC_34e7b.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_34e7b.dir/OpenMPTryFlag.c.o -sys-header-deps -idirafter /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include -internal-isystem /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include -fdebug-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-48yIgp -ferror-limit 19 -fopenmp -fgnuc-version=4.2.1 -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_34e7b.dir/OpenMPTryFlag.c.o -x c /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-48yIgp/OpenMPTryFlag.c
+        clang -cc1 version 16.0.6 based upon LLVM 16.0.6 default target x86_64-unknown-linux-gnu
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include
+         /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include
+        End of search list.
+        /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-48yIgp/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+        #include <omp.h>
+                 ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_34e7b.dir/build.make:79: CMakeFiles/cmTC_34e7b.dir/OpenMPTryFlag.c.o] Error 1
+        make[1]: Leaving directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-48yIgp'
+        make: *** [Makefile:127: cmTC_34e7b/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/FindOpenMP.cmake:485 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:4 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-WS6bzi"
+      binary: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-WS6bzi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-WS6bzi'
+        
+        Run Build Command(s): /nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/bin/cmake -E env VERBOSE=1 /home/usercommon/.nix-profile/bin/make -f Makefile cmTC_87ae0/fast
+        /home/usercommon/.nix-profile/bin/make  -f CMakeFiles/cmTC_87ae0.dir/build.make CMakeFiles/cmTC_87ae0.dir/build
+        make[1]: Entering directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-WS6bzi'
+        Building C object CMakeFiles/cmTC_87ae0.dir/OpenMPTryFlag.c.o
+        /home/usercommon/.nix-profile/bin/cc   -fopenmp -v -MD -MT CMakeFiles/cmTC_87ae0.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_87ae0.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_87ae0.dir/OpenMPTryFlag.c.o -c /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-WS6bzi/OpenMPTryFlag.c
+        clang version 16.0.6
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Selected GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin/clang-16" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-WS6bzi -nostdsysteminc -resource-dir /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root -dependency-file CMakeFiles/cmTC_87ae0.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_87ae0.dir/OpenMPTryFlag.c.o -sys-header-deps -idirafter /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include -internal-isystem /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include -fdebug-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-WS6bzi -ferror-limit 19 -fopenmp -fgnuc-version=4.2.1 -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_87ae0.dir/OpenMPTryFlag.c.o -x c /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-WS6bzi/OpenMPTryFlag.c
+        clang -cc1 version 16.0.6 based upon LLVM 16.0.6 default target x86_64-unknown-linux-gnu
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include
+         /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include
+        End of search list.
+        /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-WS6bzi/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+        #include <omp.h>
+                 ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_87ae0.dir/build.make:79: CMakeFiles/cmTC_87ae0.dir/OpenMPTryFlag.c.o] Error 1
+        make[1]: Leaving directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-WS6bzi'
+        make: *** [Makefile:127: cmTC_87ae0/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/FindOpenMP.cmake:485 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:4 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-wI3V4b"
+      binary: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-wI3V4b"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_Xclang fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-wI3V4b'
+        
+        Run Build Command(s): /nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/bin/cmake -E env VERBOSE=1 /home/usercommon/.nix-profile/bin/make -f Makefile cmTC_6e57c/fast
+        /home/usercommon/.nix-profile/bin/make  -f CMakeFiles/cmTC_6e57c.dir/build.make CMakeFiles/cmTC_6e57c.dir/build
+        make[1]: Entering directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-wI3V4b'
+        Building C object CMakeFiles/cmTC_6e57c.dir/OpenMPTryFlag.c.o
+        /home/usercommon/.nix-profile/bin/cc   -Xclang -fopenmp -v -MD -MT CMakeFiles/cmTC_6e57c.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_6e57c.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_6e57c.dir/OpenMPTryFlag.c.o -c /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-wI3V4b/OpenMPTryFlag.c
+        clang version 16.0.6
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Selected GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin/clang-16" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-wI3V4b -nostdsysteminc -resource-dir /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root -dependency-file CMakeFiles/cmTC_6e57c.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_6e57c.dir/OpenMPTryFlag.c.o -sys-header-deps -idirafter /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include -internal-isystem /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include -fdebug-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-wI3V4b -ferror-limit 19 -fgnuc-version=4.2.1 -fopenmp -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_6e57c.dir/OpenMPTryFlag.c.o -x c /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-wI3V4b/OpenMPTryFlag.c
+        clang -cc1 version 16.0.6 based upon LLVM 16.0.6 default target x86_64-unknown-linux-gnu
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include
+         /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include
+        End of search list.
+        /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-wI3V4b/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+        #include <omp.h>
+                 ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_6e57c.dir/build.make:79: CMakeFiles/cmTC_6e57c.dir/OpenMPTryFlag.c.o] Error 1
+        make[1]: Leaving directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-wI3V4b'
+        make: *** [Makefile:127: cmTC_6e57c/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/FindOpenMP.cmake:485 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:4 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-e8GRbL"
+      binary: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-e8GRbL"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_fopenmplibomp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-e8GRbL'
+        
+        Run Build Command(s): /nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/bin/cmake -E env VERBOSE=1 /home/usercommon/.nix-profile/bin/make -f Makefile cmTC_414e1/fast
+        /home/usercommon/.nix-profile/bin/make  -f CMakeFiles/cmTC_414e1.dir/build.make CMakeFiles/cmTC_414e1.dir/build
+        make[1]: Entering directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-e8GRbL'
+        Building CXX object CMakeFiles/cmTC_414e1.dir/OpenMPTryFlag.cpp.o
+        /home/usercommon/.nix-profile/bin/c++   -fopenmp=libomp -v -MD -MT CMakeFiles/cmTC_414e1.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_414e1.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_414e1.dir/OpenMPTryFlag.cpp.o -c /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-e8GRbL/OpenMPTryFlag.cpp
+        clang version 16.0.6
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Selected GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin/clang-16" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-e8GRbL -nostdsysteminc -resource-dir /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root -dependency-file CMakeFiles/cmTC_414e1.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_414e1.dir/OpenMPTryFlag.cpp.o -sys-header-deps -idirafter /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include -isystem /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0 -isystem /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu -internal-isystem /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include -fdeprecated-macro -fdebug-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-e8GRbL -ferror-limit 19 -fopenmp -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_414e1.dir/OpenMPTryFlag.cpp.o -x c++ /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-e8GRbL/OpenMPTryFlag.cpp
+        clang -cc1 version 16.0.6 based upon LLVM 16.0.6 default target x86_64-unknown-linux-gnu
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0
+         /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu
+         /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include
+         /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include
+        End of search list.
+        /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-e8GRbL/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+        #include <omp.h>
+                 ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_414e1.dir/build.make:79: CMakeFiles/cmTC_414e1.dir/OpenMPTryFlag.cpp.o] Error 1
+        make[1]: Leaving directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-e8GRbL'
+        make: *** [Makefile:127: cmTC_414e1/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/FindOpenMP.cmake:485 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:4 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-aaJoZD"
+      binary: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-aaJoZD"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_fopenmplibiomp5"
+      cached: true
+      stdout: |
+        Change Dir: '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-aaJoZD'
+        
+        Run Build Command(s): /nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/bin/cmake -E env VERBOSE=1 /home/usercommon/.nix-profile/bin/make -f Makefile cmTC_0620f/fast
+        /home/usercommon/.nix-profile/bin/make  -f CMakeFiles/cmTC_0620f.dir/build.make CMakeFiles/cmTC_0620f.dir/build
+        make[1]: Entering directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-aaJoZD'
+        Building CXX object CMakeFiles/cmTC_0620f.dir/OpenMPTryFlag.cpp.o
+        /home/usercommon/.nix-profile/bin/c++   -fopenmp=libiomp5 -v -MD -MT CMakeFiles/cmTC_0620f.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_0620f.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_0620f.dir/OpenMPTryFlag.cpp.o -c /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-aaJoZD/OpenMPTryFlag.cpp
+        clang version 16.0.6
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Selected GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin/clang-16" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-aaJoZD -nostdsysteminc -resource-dir /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root -dependency-file CMakeFiles/cmTC_0620f.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_0620f.dir/OpenMPTryFlag.cpp.o -sys-header-deps -idirafter /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include -isystem /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0 -isystem /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu -internal-isystem /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include -fdeprecated-macro -fdebug-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-aaJoZD -ferror-limit 19 -fopenmp -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_0620f.dir/OpenMPTryFlag.cpp.o -x c++ /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-aaJoZD/OpenMPTryFlag.cpp
+        clang -cc1 version 16.0.6 based upon LLVM 16.0.6 default target x86_64-unknown-linux-gnu
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0
+         /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu
+         /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include
+         /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include
+        End of search list.
+        /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-aaJoZD/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+        #include <omp.h>
+                 ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_0620f.dir/build.make:79: CMakeFiles/cmTC_0620f.dir/OpenMPTryFlag.cpp.o] Error 1
+        make[1]: Leaving directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-aaJoZD'
+        make: *** [Makefile:127: cmTC_0620f/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/FindOpenMP.cmake:485 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:4 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-UTmADx"
+      binary: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-UTmADx"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-UTmADx'
+        
+        Run Build Command(s): /nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/bin/cmake -E env VERBOSE=1 /home/usercommon/.nix-profile/bin/make -f Makefile cmTC_7458d/fast
+        /home/usercommon/.nix-profile/bin/make  -f CMakeFiles/cmTC_7458d.dir/build.make CMakeFiles/cmTC_7458d.dir/build
+        make[1]: Entering directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-UTmADx'
+        Building CXX object CMakeFiles/cmTC_7458d.dir/OpenMPTryFlag.cpp.o
+        /home/usercommon/.nix-profile/bin/c++   -fopenmp -v -MD -MT CMakeFiles/cmTC_7458d.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_7458d.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_7458d.dir/OpenMPTryFlag.cpp.o -c /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-UTmADx/OpenMPTryFlag.cpp
+        clang version 16.0.6
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Selected GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin/clang-16" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-UTmADx -nostdsysteminc -resource-dir /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root -dependency-file CMakeFiles/cmTC_7458d.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_7458d.dir/OpenMPTryFlag.cpp.o -sys-header-deps -idirafter /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include -isystem /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0 -isystem /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu -internal-isystem /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include -fdeprecated-macro -fdebug-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-UTmADx -ferror-limit 19 -fopenmp -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_7458d.dir/OpenMPTryFlag.cpp.o -x c++ /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-UTmADx/OpenMPTryFlag.cpp
+        clang -cc1 version 16.0.6 based upon LLVM 16.0.6 default target x86_64-unknown-linux-gnu
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0
+         /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu
+         /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include
+         /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include
+        End of search list.
+        /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-UTmADx/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+        #include <omp.h>
+                 ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_7458d.dir/build.make:79: CMakeFiles/cmTC_7458d.dir/OpenMPTryFlag.cpp.o] Error 1
+        make[1]: Leaving directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-UTmADx'
+        make: *** [Makefile:127: cmTC_7458d/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/FindOpenMP.cmake:485 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:4 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-YYxZYh"
+      binary: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-YYxZYh"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_Xclang fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-YYxZYh'
+        
+        Run Build Command(s): /nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/bin/cmake -E env VERBOSE=1 /home/usercommon/.nix-profile/bin/make -f Makefile cmTC_3b4ef/fast
+        /home/usercommon/.nix-profile/bin/make  -f CMakeFiles/cmTC_3b4ef.dir/build.make CMakeFiles/cmTC_3b4ef.dir/build
+        make[1]: Entering directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-YYxZYh'
+        Building CXX object CMakeFiles/cmTC_3b4ef.dir/OpenMPTryFlag.cpp.o
+        /home/usercommon/.nix-profile/bin/c++   -Xclang -fopenmp -v -MD -MT CMakeFiles/cmTC_3b4ef.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_3b4ef.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_3b4ef.dir/OpenMPTryFlag.cpp.o -c /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-YYxZYh/OpenMPTryFlag.cpp
+        clang version 16.0.6
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Selected GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin/clang-16" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-YYxZYh -nostdsysteminc -resource-dir /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root -dependency-file CMakeFiles/cmTC_3b4ef.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_3b4ef.dir/OpenMPTryFlag.cpp.o -sys-header-deps -idirafter /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include -isystem /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0 -isystem /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu -internal-isystem /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include -fdeprecated-macro -fdebug-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-YYxZYh -ferror-limit 19 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fopenmp -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_3b4ef.dir/OpenMPTryFlag.cpp.o -x c++ /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-YYxZYh/OpenMPTryFlag.cpp
+        clang -cc1 version 16.0.6 based upon LLVM 16.0.6 default target x86_64-unknown-linux-gnu
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0
+         /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu
+         /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include
+         /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include
+        End of search list.
+        /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-YYxZYh/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+        #include <omp.h>
+                 ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_3b4ef.dir/build.make:79: CMakeFiles/cmTC_3b4ef.dir/OpenMPTryFlag.cpp.o] Error 1
+        make[1]: Leaving directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-YYxZYh'
+        make: *** [Makefile:127: cmTC_3b4ef/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/FindOpenMP.cmake:485 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:4 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-soigpD"
+      binary: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-soigpD"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_fopenmplibomp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-soigpD'
+        
+        Run Build Command(s): /nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/bin/cmake -E env VERBOSE=1 /home/usercommon/.nix-profile/bin/make -f Makefile cmTC_44c2c/fast
+        /home/usercommon/.nix-profile/bin/make  -f CMakeFiles/cmTC_44c2c.dir/build.make CMakeFiles/cmTC_44c2c.dir/build
+        make[1]: Entering directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-soigpD'
+        Building CXX object CMakeFiles/cmTC_44c2c.dir/OpenMPTryFlag.cpp.o
+        /home/usercommon/.nix-profile/bin/c++   -fopenmp=libomp -v -MD -MT CMakeFiles/cmTC_44c2c.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_44c2c.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_44c2c.dir/OpenMPTryFlag.cpp.o -c /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-soigpD/OpenMPTryFlag.cpp
+        clang version 16.0.6
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Selected GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin/clang-16" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-soigpD -nostdsysteminc -resource-dir /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root -dependency-file CMakeFiles/cmTC_44c2c.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_44c2c.dir/OpenMPTryFlag.cpp.o -sys-header-deps -idirafter /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include -isystem /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0 -isystem /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu -internal-isystem /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include -fdeprecated-macro -fdebug-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-soigpD -ferror-limit 19 -fopenmp -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_44c2c.dir/OpenMPTryFlag.cpp.o -x c++ /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-soigpD/OpenMPTryFlag.cpp
+        clang -cc1 version 16.0.6 based upon LLVM 16.0.6 default target x86_64-unknown-linux-gnu
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0
+         /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu
+         /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include
+         /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include
+        End of search list.
+        /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-soigpD/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+        #include <omp.h>
+                 ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_44c2c.dir/build.make:79: CMakeFiles/cmTC_44c2c.dir/OpenMPTryFlag.cpp.o] Error 1
+        make[1]: Leaving directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-soigpD'
+        make: *** [Makefile:127: cmTC_44c2c/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/FindOpenMP.cmake:485 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:4 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-SeRpsN"
+      binary: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-SeRpsN"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_fopenmplibiomp5"
+      cached: true
+      stdout: |
+        Change Dir: '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-SeRpsN'
+        
+        Run Build Command(s): /nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/bin/cmake -E env VERBOSE=1 /home/usercommon/.nix-profile/bin/make -f Makefile cmTC_ca5d7/fast
+        /home/usercommon/.nix-profile/bin/make  -f CMakeFiles/cmTC_ca5d7.dir/build.make CMakeFiles/cmTC_ca5d7.dir/build
+        make[1]: Entering directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-SeRpsN'
+        Building CXX object CMakeFiles/cmTC_ca5d7.dir/OpenMPTryFlag.cpp.o
+        /home/usercommon/.nix-profile/bin/c++   -fopenmp=libiomp5 -v -MD -MT CMakeFiles/cmTC_ca5d7.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_ca5d7.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_ca5d7.dir/OpenMPTryFlag.cpp.o -c /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-SeRpsN/OpenMPTryFlag.cpp
+        clang version 16.0.6
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Selected GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin/clang-16" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-SeRpsN -nostdsysteminc -resource-dir /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root -dependency-file CMakeFiles/cmTC_ca5d7.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_ca5d7.dir/OpenMPTryFlag.cpp.o -sys-header-deps -idirafter /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include -isystem /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0 -isystem /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu -internal-isystem /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include -fdeprecated-macro -fdebug-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-SeRpsN -ferror-limit 19 -fopenmp -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ca5d7.dir/OpenMPTryFlag.cpp.o -x c++ /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-SeRpsN/OpenMPTryFlag.cpp
+        clang -cc1 version 16.0.6 based upon LLVM 16.0.6 default target x86_64-unknown-linux-gnu
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0
+         /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu
+         /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include
+         /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include
+        End of search list.
+        /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-SeRpsN/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+        #include <omp.h>
+                 ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_ca5d7.dir/build.make:79: CMakeFiles/cmTC_ca5d7.dir/OpenMPTryFlag.cpp.o] Error 1
+        make[1]: Leaving directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-SeRpsN'
+        make: *** [Makefile:127: cmTC_ca5d7/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/FindOpenMP.cmake:485 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:4 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-xZc4Af"
+      binary: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-xZc4Af"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-xZc4Af'
+        
+        Run Build Command(s): /nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/bin/cmake -E env VERBOSE=1 /home/usercommon/.nix-profile/bin/make -f Makefile cmTC_4fb5d/fast
+        /home/usercommon/.nix-profile/bin/make  -f CMakeFiles/cmTC_4fb5d.dir/build.make CMakeFiles/cmTC_4fb5d.dir/build
+        make[1]: Entering directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-xZc4Af'
+        Building CXX object CMakeFiles/cmTC_4fb5d.dir/OpenMPTryFlag.cpp.o
+        /home/usercommon/.nix-profile/bin/c++   -fopenmp -v -MD -MT CMakeFiles/cmTC_4fb5d.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_4fb5d.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_4fb5d.dir/OpenMPTryFlag.cpp.o -c /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-xZc4Af/OpenMPTryFlag.cpp
+        clang version 16.0.6
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Selected GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin/clang-16" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-xZc4Af -nostdsysteminc -resource-dir /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root -dependency-file CMakeFiles/cmTC_4fb5d.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_4fb5d.dir/OpenMPTryFlag.cpp.o -sys-header-deps -idirafter /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include -isystem /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0 -isystem /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu -internal-isystem /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include -fdeprecated-macro -fdebug-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-xZc4Af -ferror-limit 19 -fopenmp -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_4fb5d.dir/OpenMPTryFlag.cpp.o -x c++ /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-xZc4Af/OpenMPTryFlag.cpp
+        clang -cc1 version 16.0.6 based upon LLVM 16.0.6 default target x86_64-unknown-linux-gnu
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0
+         /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu
+         /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include
+         /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include
+        End of search list.
+        /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-xZc4Af/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+        #include <omp.h>
+                 ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_4fb5d.dir/build.make:79: CMakeFiles/cmTC_4fb5d.dir/OpenMPTryFlag.cpp.o] Error 1
+        make[1]: Leaving directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-xZc4Af'
+        make: *** [Makefile:127: cmTC_4fb5d/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/FindOpenMP.cmake:485 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:4 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-h4Zq50"
+      binary: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-h4Zq50"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_Xclang fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-h4Zq50'
+        
+        Run Build Command(s): /nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/bin/cmake -E env VERBOSE=1 /home/usercommon/.nix-profile/bin/make -f Makefile cmTC_c453d/fast
+        /home/usercommon/.nix-profile/bin/make  -f CMakeFiles/cmTC_c453d.dir/build.make CMakeFiles/cmTC_c453d.dir/build
+        make[1]: Entering directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-h4Zq50'
+        Building CXX object CMakeFiles/cmTC_c453d.dir/OpenMPTryFlag.cpp.o
+        /home/usercommon/.nix-profile/bin/c++   -Xclang -fopenmp -v -MD -MT CMakeFiles/cmTC_c453d.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_c453d.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_c453d.dir/OpenMPTryFlag.cpp.o -c /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-h4Zq50/OpenMPTryFlag.cpp
+        clang version 16.0.6
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Selected GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin/clang-16" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-h4Zq50 -nostdsysteminc -resource-dir /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root -dependency-file CMakeFiles/cmTC_c453d.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_c453d.dir/OpenMPTryFlag.cpp.o -sys-header-deps -idirafter /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include -isystem /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0 -isystem /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu -internal-isystem /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include -fdeprecated-macro -fdebug-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-h4Zq50 -ferror-limit 19 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fopenmp -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c453d.dir/OpenMPTryFlag.cpp.o -x c++ /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-h4Zq50/OpenMPTryFlag.cpp
+        clang -cc1 version 16.0.6 based upon LLVM 16.0.6 default target x86_64-unknown-linux-gnu
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0
+         /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu
+         /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include
+         /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include
+        End of search list.
+        /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-h4Zq50/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+        #include <omp.h>
+                 ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_c453d.dir/build.make:79: CMakeFiles/cmTC_c453d.dir/OpenMPTryFlag.cpp.o] Error 1
+        make[1]: Leaving directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-h4Zq50'
+        make: *** [Makefile:127: cmTC_c453d/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/FindOpenMP.cmake:485 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:4 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-QktgoD"
+      binary: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-QktgoD"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_fopenmplibomp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-QktgoD'
+        
+        Run Build Command(s): /nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/bin/cmake -E env VERBOSE=1 /home/usercommon/.nix-profile/bin/make -f Makefile cmTC_21a41/fast
+        /home/usercommon/.nix-profile/bin/make  -f CMakeFiles/cmTC_21a41.dir/build.make CMakeFiles/cmTC_21a41.dir/build
+        make[1]: Entering directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-QktgoD'
+        Building CXX object CMakeFiles/cmTC_21a41.dir/OpenMPTryFlag.cpp.o
+        /home/usercommon/.nix-profile/bin/c++   -fopenmp=libomp -v -MD -MT CMakeFiles/cmTC_21a41.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_21a41.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_21a41.dir/OpenMPTryFlag.cpp.o -c /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-QktgoD/OpenMPTryFlag.cpp
+        clang version 16.0.6
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Selected GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin/clang-16" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-QktgoD -nostdsysteminc -resource-dir /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root -dependency-file CMakeFiles/cmTC_21a41.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_21a41.dir/OpenMPTryFlag.cpp.o -sys-header-deps -idirafter /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include -isystem /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0 -isystem /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu -internal-isystem /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include -fdeprecated-macro -fdebug-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-QktgoD -ferror-limit 19 -fopenmp -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_21a41.dir/OpenMPTryFlag.cpp.o -x c++ /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-QktgoD/OpenMPTryFlag.cpp
+        clang -cc1 version 16.0.6 based upon LLVM 16.0.6 default target x86_64-unknown-linux-gnu
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0
+         /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu
+         /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include
+         /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include
+        End of search list.
+        /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-QktgoD/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+        #include <omp.h>
+                 ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_21a41.dir/build.make:79: CMakeFiles/cmTC_21a41.dir/OpenMPTryFlag.cpp.o] Error 1
+        make[1]: Leaving directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-QktgoD'
+        make: *** [Makefile:127: cmTC_21a41/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/FindOpenMP.cmake:485 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:4 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-11Aaxu"
+      binary: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-11Aaxu"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_fopenmplibiomp5"
+      cached: true
+      stdout: |
+        Change Dir: '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-11Aaxu'
+        
+        Run Build Command(s): /nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/bin/cmake -E env VERBOSE=1 /home/usercommon/.nix-profile/bin/make -f Makefile cmTC_3d5ce/fast
+        /home/usercommon/.nix-profile/bin/make  -f CMakeFiles/cmTC_3d5ce.dir/build.make CMakeFiles/cmTC_3d5ce.dir/build
+        make[1]: Entering directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-11Aaxu'
+        Building CXX object CMakeFiles/cmTC_3d5ce.dir/OpenMPTryFlag.cpp.o
+        /home/usercommon/.nix-profile/bin/c++   -fopenmp=libiomp5 -v -MD -MT CMakeFiles/cmTC_3d5ce.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_3d5ce.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_3d5ce.dir/OpenMPTryFlag.cpp.o -c /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-11Aaxu/OpenMPTryFlag.cpp
+        clang version 16.0.6
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Selected GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin/clang-16" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-11Aaxu -nostdsysteminc -resource-dir /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root -dependency-file CMakeFiles/cmTC_3d5ce.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_3d5ce.dir/OpenMPTryFlag.cpp.o -sys-header-deps -idirafter /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include -isystem /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0 -isystem /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu -internal-isystem /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include -fdeprecated-macro -fdebug-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-11Aaxu -ferror-limit 19 -fopenmp -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_3d5ce.dir/OpenMPTryFlag.cpp.o -x c++ /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-11Aaxu/OpenMPTryFlag.cpp
+        clang -cc1 version 16.0.6 based upon LLVM 16.0.6 default target x86_64-unknown-linux-gnu
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0
+         /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu
+         /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include
+         /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include
+        End of search list.
+        /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-11Aaxu/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+        #include <omp.h>
+                 ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_3d5ce.dir/build.make:79: CMakeFiles/cmTC_3d5ce.dir/OpenMPTryFlag.cpp.o] Error 1
+        make[1]: Leaving directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-11Aaxu'
+        make: *** [Makefile:127: cmTC_3d5ce/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/FindOpenMP.cmake:485 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:4 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-sZzxUS"
+      binary: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-sZzxUS"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-sZzxUS'
+        
+        Run Build Command(s): /nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/bin/cmake -E env VERBOSE=1 /home/usercommon/.nix-profile/bin/make -f Makefile cmTC_f9289/fast
+        /home/usercommon/.nix-profile/bin/make  -f CMakeFiles/cmTC_f9289.dir/build.make CMakeFiles/cmTC_f9289.dir/build
+        make[1]: Entering directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-sZzxUS'
+        Building CXX object CMakeFiles/cmTC_f9289.dir/OpenMPTryFlag.cpp.o
+        /home/usercommon/.nix-profile/bin/c++   -fopenmp -v -MD -MT CMakeFiles/cmTC_f9289.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_f9289.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_f9289.dir/OpenMPTryFlag.cpp.o -c /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-sZzxUS/OpenMPTryFlag.cpp
+        clang version 16.0.6
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Selected GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin/clang-16" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-sZzxUS -nostdsysteminc -resource-dir /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root -dependency-file CMakeFiles/cmTC_f9289.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_f9289.dir/OpenMPTryFlag.cpp.o -sys-header-deps -idirafter /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include -isystem /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0 -isystem /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu -internal-isystem /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include -fdeprecated-macro -fdebug-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-sZzxUS -ferror-limit 19 -fopenmp -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_f9289.dir/OpenMPTryFlag.cpp.o -x c++ /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-sZzxUS/OpenMPTryFlag.cpp
+        clang -cc1 version 16.0.6 based upon LLVM 16.0.6 default target x86_64-unknown-linux-gnu
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0
+         /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu
+         /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include
+         /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include
+        End of search list.
+        /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-sZzxUS/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+        #include <omp.h>
+                 ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_f9289.dir/build.make:79: CMakeFiles/cmTC_f9289.dir/OpenMPTryFlag.cpp.o] Error 1
+        make[1]: Leaving directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-sZzxUS'
+        make: *** [Makefile:127: cmTC_f9289/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/share/cmake-3.27/Modules/FindOpenMP.cmake:485 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:4 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-vstX4g"
+      binary: "/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-vstX4g"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_Xclang fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-vstX4g'
+        
+        Run Build Command(s): /nix/store/jacf2kn4dfj99c3ywbvfyg6w53xvxsfl-cmake-3.27.8/bin/cmake -E env VERBOSE=1 /home/usercommon/.nix-profile/bin/make -f Makefile cmTC_37b77/fast
+        /home/usercommon/.nix-profile/bin/make  -f CMakeFiles/cmTC_37b77.dir/build.make CMakeFiles/cmTC_37b77.dir/build
+        make[1]: Entering directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-vstX4g'
+        Building CXX object CMakeFiles/cmTC_37b77.dir/OpenMPTryFlag.cpp.o
+        /home/usercommon/.nix-profile/bin/c++   -Xclang -fopenmp -v -MD -MT CMakeFiles/cmTC_37b77.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_37b77.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_37b77.dir/OpenMPTryFlag.cpp.o -c /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-vstX4g/OpenMPTryFlag.cpp
+        clang version 16.0.6
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Found candidate GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Selected GCC installation: /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/nix/store/0y99g3631mcl08ym46a5803g0hr4rc8j-clang-16.0.6/bin/clang-16" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-vstX4g -nostdsysteminc -resource-dir /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root -dependency-file CMakeFiles/cmTC_37b77.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_37b77.dir/OpenMPTryFlag.cpp.o -sys-header-deps -idirafter /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include -isystem /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0 -isystem /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu -internal-isystem /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include -fdeprecated-macro -fdebug-compilation-dir=/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-vstX4g -ferror-limit 19 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fopenmp -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_37b77.dir/OpenMPTryFlag.cpp.o -x c++ /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-vstX4g/OpenMPTryFlag.cpp
+        clang -cc1 version 16.0.6 based upon LLVM 16.0.6 default target x86_64-unknown-linux-gnu
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0
+         /nix/store/j00nb8s5mwaxgi77h21i1ycb91yxxqck-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu
+         /nix/store/yqvsk9m8aza2ngwnglvadlgj71vcgwzm-clang-wrapper-16.0.6/resource-root/include
+         /nix/store/3mmvgb08qy8n6n37mnprf77fnp4rssi9-glibc-2.38-27-dev/include
+        End of search list.
+        /home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-vstX4g/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+        #include <omp.h>
+                 ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_37b77.dir/build.make:79: CMakeFiles/cmTC_37b77.dir/OpenMPTryFlag.cpp.o] Error 1
+        make[1]: Leaving directory '/home/usercommon/edu/concurrency_and_lowlevel/practice2/build/CMakeFiles/CMakeScratch/TryCompile-vstX4g'
+        make: *** [Makefile:127: cmTC_37b77/fast] Error 2
+        
+      exitCode: 2
+...

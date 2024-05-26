@@ -1,0 +1,3 @@
+|Process: 0 |Received: f1.txt |Max Value: 9|
+|Process: 1 |Received: f2.txt |Max Value: 12312314|
+|Process: 2 |Received: f3.txt |Max Value: 111121222|
